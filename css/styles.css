@@ -301,6 +301,12 @@ a {
 .item {
   margin-left: 30px;
 }
+.item:hover,
+.item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 .item-worker {
   background-color: #fff;
   width: 270px;
@@ -376,6 +382,12 @@ a {
 .section-filter {
   padding-bottom: 94px;
   text-align: center;
+}
+.menu-filter:hover,
+.menu-filter:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  /* cursor: pointer; */
 }
 .menu-filter:not(:last-child) {
   margin-right: 9px;
